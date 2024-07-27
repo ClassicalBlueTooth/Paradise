@@ -72,5 +72,8 @@ $RECYCLE.BIN
 # VIM swap files.
 *.swp
 
+# Ignore the README.md
+README.md
+
 # Rust output.
 /milla/target/*
