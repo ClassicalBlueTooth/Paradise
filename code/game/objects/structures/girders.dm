@@ -441,6 +441,10 @@
 	girderpasschance = 25
 	max_integrity = 120
 
+/obj/structure/girder/smooth
+	smoothing_groups = list(SMOOTH_GROUP_STRUCTURES)
+	canSmoothWith = list(SMOOTH_GROUP_PLASTITANIUM_WALLS)
+
 /obj/structure/girder/reinforced
 	name = "reinforced girder"
 	icon_state = "reinforced"

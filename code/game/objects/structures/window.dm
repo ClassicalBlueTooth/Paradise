@@ -510,6 +510,10 @@
 	explosion_block = 1
 	glass_type = /obj/item/stack/sheet/rglass
 
+/obj/structure/window/reinforced/smooth
+	smoothing_groups = list(SMOOTH_GROUP_STRUCTURES)
+	canSmoothWith = list(SMOOTH_GROUP_PLASTITANIUM_WALLS)
+
 /obj/structure/window/reinforced/tinted
 	name = "tinted window"
 	desc = "It looks rather strong and opaque. Might take a few good hits to shatter it."

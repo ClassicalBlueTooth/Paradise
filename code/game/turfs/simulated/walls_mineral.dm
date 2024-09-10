@@ -336,6 +336,10 @@
 	base_icon_state = "plastitanium_wall"
 	smoothing_flags = SMOOTH_BITMASK
 
+/turf/simulated/wall/mineral/plastitanium/forcesmooth
+	smoothing_groups = list(SMOOTH_GROUP_PLASTITANIUM_WALLS)
+	canSmoothWith = list(SMOOTH_GROUP_STRUCTURES, SMOOTH_GROUP_PLASTITANIUM_WALLS, SMOOTH_GROUP_AIRLOCK, SMOOTH_GROUP_SHUTTLE_PARTS)
+
 /turf/simulated/wall/mineral/plastitanium/nosmooth
 	icon = 'icons/turf/shuttle.dmi'
 	icon_state = "wall"
